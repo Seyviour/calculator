@@ -9,6 +9,7 @@ const calc = require("./calculator");
 
 calc.add(2, 3);
 calc.sqrt(9);
+calc.sin(Math.PI / 2);
 ```
 
 ## Functions
@@ -19,3 +20,6 @@ calc.sqrt(9);
 - `divide(a, b)` (throws on division by zero)
 - `exponent(a, b)`
 - `sqrt(x)`
+- `sin(x)` (radians)
+- `cos(x)` (radians)
+- `tan(x)` (radians)
