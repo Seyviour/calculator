@@ -22,10 +22,15 @@ function exponent(a, b) {
   return a ** b;
 }
 
+function sqrt(x) {
+  return Math.sqrt(x);
+}
+
 module.exports = {
   add,
   subtract,
   multiply,
   divide,
   exponent,
+  sqrt,
 };
