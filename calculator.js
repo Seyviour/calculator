@@ -1,5 +1,5 @@
 function add(a, b) {
-  throw new Error("Not implemented");
+  return a + b;
 }
 
 module.exports = {
