@@ -38,6 +38,18 @@ function tan(x) {
   return Math.tan(x);
 }
 
+function ln(x) {
+  return Math.log(x);
+}
+
+function log10(x) {
+  if (typeof Math.log10 === "function") {
+    return Math.log10(x);
+  }
+
+  return Math.log(x) / Math.LN10;
+}
+
 module.exports = {
   add,
   subtract,
@@ -48,4 +60,6 @@ module.exports = {
   sin,
   cos,
   tan,
+  ln,
+  log10,
 };

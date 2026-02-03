@@ -10,6 +10,7 @@ const calc = require("./calculator");
 calc.add(2, 3);
 calc.sqrt(9);
 calc.sin(Math.PI / 2);
+calc.log10(1000);
 ```
 
 ## Functions
@@ -23,3 +24,5 @@ calc.sin(Math.PI / 2);
 - `sin(x)` (radians)
 - `cos(x)` (radians)
 - `tan(x)` (radians)
+- `ln(x)`
+- `log10(x)`
